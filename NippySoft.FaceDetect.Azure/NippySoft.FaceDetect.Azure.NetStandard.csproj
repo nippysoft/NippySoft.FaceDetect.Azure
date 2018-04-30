@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>NippySoft.FaceDetect.Azure</AssemblyName>
+    <RootNamespace>NippySoft.FaceDetect.Azure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NippySoft.FaceDetect.Azure.Core\NippySoft.FaceDetect.Azure.Core.NetStandard.csproj" />
+  </ItemGroup>
+
+</Project>

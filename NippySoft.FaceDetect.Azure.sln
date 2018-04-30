@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NippySoft.FaceDetect.Azure.Core.NetStandard", "NippySoft.FaceDetect.Azure.Core.NetStandard", "{44D94AB7-16C6-4910-81B3-5837484A0EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NippySoft.FaceDetect.Azure.Core.NetStandard", "NippySoft.FaceDetect.Azure.Core\NippySoft.FaceDetect.Azure.Core.NetStandard.csproj", "{6AFF708F-A4AC-4E88-801D-2359D4B235AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NippySoft.FaceDetect.Azure.NetStandard", "NippySoft.FaceDetect.Azure.NetStandard", "{E3F2055C-9780-4851-95C1-41B6EE818981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NippySoft.FaceDetect.Azure.NetStandard", "NippySoft.FaceDetect.Azure\NippySoft.FaceDetect.Azure.NetStandard.csproj", "{8F477397-FCC4-487C-9420-D85C75EAA082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{666F782A-5A7B-4D93-A15E-F5B1ACB98DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NippySoft.FaceDetect.Azure.Test.NetStandard", "NippySoft.FaceDetect.Azure.Test\NippySoft.FaceDetect.Azure.Test.NetStandard.csproj", "{4DEBB244-2C8A-40A6-8B4C-CB85CC4A11AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AFF708F-A4AC-4E88-801D-2359D4B235AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFF708F-A4AC-4E88-801D-2359D4B235AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFF708F-A4AC-4E88-801D-2359D4B235AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFF708F-A4AC-4E88-801D-2359D4B235AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F477397-FCC4-487C-9420-D85C75EAA082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F477397-FCC4-487C-9420-D85C75EAA082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F477397-FCC4-487C-9420-D85C75EAA082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F477397-FCC4-487C-9420-D85C75EAA082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEBB244-2C8A-40A6-8B4C-CB85CC4A11AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEBB244-2C8A-40A6-8B4C-CB85CC4A11AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEBB244-2C8A-40A6-8B4C-CB85CC4A11AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEBB244-2C8A-40A6-8B4C-CB85CC4A11AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AFF708F-A4AC-4E88-801D-2359D4B235AF} = {44D94AB7-16C6-4910-81B3-5837484A0EC3}
+		{8F477397-FCC4-487C-9420-D85C75EAA082} = {E3F2055C-9780-4851-95C1-41B6EE818981}
+		{4DEBB244-2C8A-40A6-8B4C-CB85CC4A11AE} = {666F782A-5A7B-4D93-A15E-F5B1ACB98DEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {674D49A2-3C7A-4D9A-A1A1-AD6AC35A158D}
+	EndGlobalSection
+EndGlobal
