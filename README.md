@@ -16,13 +16,13 @@ Give examples
 
 ### Use The Code
 
-**using (FaceDetect faceDetect = new FaceDetect(LocationServerApiAzure.EastUS))
+using (FaceDetect faceDetect = new FaceDetect(LocationServerApiAzure.EastUS))
 {
       faceDetect.SuscriptionKey = "Api Key Azure Cognitive Services";
       ResponseFaceDetect responseFaceDetect = faceDetect.GetFacesFromImageInDisk("Path The Image").Result;
               
- }
-**
+}
+
 ## Authors
 
 * **Javier Enrique Joya Aroca (NippySoft)**
