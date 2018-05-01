@@ -4,14 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>NippySoft.FaceDetect.Azure</AssemblyName>
     <RootNamespace>NippySoft.FaceDetect.Azure</RootNamespace>
+    <Version>0.1.1</Version>
+    <Authors>Javier Enrique Joya Aroca</Authors>
+    <Company>NippySoft</Company>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\NippySoft.FaceDetect.Azure.Core\NippySoft.FaceDetect.Azure.Core.NetStandard.csproj" />
+    <PackageReference Include="NippySoft.FaceDetect.Azure.Core" Version="0.1.2-alpha" />
   </ItemGroup>
 
 </Project>

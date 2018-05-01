@@ -22,12 +22,11 @@ namespace NippySoft.FaceDetect.Azure.Test.NetStandard
         public void TestFaceDetectFromBytesImage()
         {
             byte[] arrBytes = GetImageAsByteArray("imageTest/img1.jpg");
+
             using (FaceDetect faceDetect = new FaceDetect(LocationServerApiAzure.EastUS))
             {
                 faceDetect.SuscriptionKey = "Api Key Azure Cognitive Services";
-                ResponseFaceDetect responseFaceDetect = faceDetect.GetFacesFromBytesImage(arrBytes).Result;
-
-                Assert.IsTrue(responseFaceDetect.IsSuccess);
+                ResponseFaceDetect responseFaceDetect = faceDetect.GetFacesFromImageInDisk("Path The Image").Result;
             }
 
         }

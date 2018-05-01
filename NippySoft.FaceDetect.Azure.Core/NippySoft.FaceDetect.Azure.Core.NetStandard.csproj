@@ -4,6 +4,9 @@
     <TargetFramework>netstandard1.0</TargetFramework>
     <AssemblyName>NippySoft.FaceDetect.Azure.Core</AssemblyName>
     <RootNamespace>NippySoft.FaceDetect.Azure.Core</RootNamespace>
+    <Version>0.1.2</Version>
+    <Authors>Javier Enrique Joya Aroca</Authors>
+    <Company>NippySoft</Company>
   </PropertyGroup>
 
 </Project>
